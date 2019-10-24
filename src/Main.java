@@ -6,7 +6,7 @@ public class Main {
         String answer2;
         do {
             System.out.println("Would you like to generate a random number or input a number? (R/I)");
-            String answer = keyboard.nextLine();
+            String answer = keyboard.next();
             if (answer.equalsIgnoreCase("I")) {
                 int counter = 0;
                 System.out.println("Please input a number: ");
