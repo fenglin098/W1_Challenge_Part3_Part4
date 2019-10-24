@@ -24,7 +24,6 @@ public class Main {
                     System.out.println(numInput + " is not a prime");
                 }
             } else if (answer.equalsIgnoreCase("R")) {
-
                 System.out.println("Below is a random selection from 1 and 250:");
                 Random r = new Random();
                 int counter2 = 0;
@@ -43,7 +42,7 @@ public class Main {
                 }
             }
             System.out.println("Would you like to try again (Y/N)");
-            answer2=keyboard.nextLine();
-        }while (answer2.equalsIgnoreCase("Y"));
+            answer2=keyboard.next();
+        }while(answer2.equalsIgnoreCase("Y"));
     }
 }
